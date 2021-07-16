@@ -15,6 +15,14 @@ body .main {
   min-height: 100vh;
 }
 
+body .main .video {
+  text-align: center;
+}
+
+body .main .video .frame {
+  padding-top: 30px;
+}
+
 body .main a {
   color: #0096cc;
   text-decoration: none;
