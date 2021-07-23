@@ -158,6 +158,19 @@ body .main header .info .title {
   margin-bottom: 10px;
 }
 
+body .main header .info .single-post-title {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+body .main header .info .single-post-top-title {
+  font-size: 0.7em;
+  text-align: left;
+  font-weight: 400;
+  color: #007199;
+  text-transform: uppercase;
+}
+
 body .main header .info .sub-title {
   color: #aaa;
   font-family: "Open Sans", sans-serif;
@@ -165,6 +178,17 @@ body .main header .info .sub-title {
 }
 
 body .main header .info .sub-title h2 {
+  font-weight: 300;
+}
+
+body .main header .info .single-post-sub-title {
+  color: #aaa;
+  font-family: "Merriweather", sans-serif;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+body .main header .info .single-post-sub-title h2 {
   font-weight: 300;
 }
 

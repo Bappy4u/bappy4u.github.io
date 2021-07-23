@@ -1,0 +1,31 @@
+body .info .post-details {
+  text-align: left;
+  margin-top: 40px;
+  border-top: 1px solid #e4eaed;
+  padding-top: 20px;
+}
+
+body .info .post-details .a-avatar {
+  display: inline-block;
+  text-align: left;
+  padding-right: 5px;
+}
+
+body .info .post-details .a-avatar img {
+  width: 100%;
+  height: auto;
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+body .info .post-details .det {
+  display: inline-block;
+  vertical-align: super;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+body .info .post-details .det .a-name:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=post.css.map */

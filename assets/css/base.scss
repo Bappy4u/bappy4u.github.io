@@ -1,15 +1,4 @@
-$primary-color: #3a4145;
-$secondary-color: #2e2e2e;
-
-$font-gray-color: #aaa;
-
-$link-color: #0096cc;
-$link-hover-color: #007199;
-$btn-hover-bg-color: #0074d9;
-
-$nav-font-family: "Montserrat", sans-serif;
-$body-font-family: "Open Sans", sans-serif;
-$content-font-family: "Merriweather", sans-serif;
+@import "root.scss";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -135,10 +124,32 @@ body {
           margin-bottom: 10px;
         }
 
+        .single-post-title {
+          text-align: left;
+          font-size: 1.2em;
+        }
+        .single-post-top-title {
+          font-size: 0.7em;
+          text-align: left;
+          font-weight: 400;
+          color: $link-hover-color;
+          text-transform: uppercase;
+        }
+
         .sub-title {
           color: $font-gray-color;
           font-family: $body-font-family;
           font-size: 1.1em;
+          h2 {
+            font-weight: 300;
+          }
+        }
+        .single-post-sub-title {
+          color: $font-gray-color;
+          font-family: $content-font-family;
+          font-size: 0.9em;
+          text-align: left;
+
           h2 {
             font-weight: 300;
           }
