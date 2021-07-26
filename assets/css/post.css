@@ -14,7 +14,7 @@ body .info .post-details .a-avatar {
 body .info .post-details .a-avatar img {
   width: 100%;
   height: auto;
-  max-width: 50px;
+  max-width: 40px;
   border-radius: 50%;
 }
 
@@ -22,10 +22,24 @@ body .info .post-details .det {
   display: inline-block;
   vertical-align: super;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+body .info .post-details .det .a-name a {
+  color: #007199;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 body .info .post-details .det .a-name:hover {
   text-decoration: underline;
+}
+
+body .info .post-details .det .pub-date {
+  color: #9a9a9a;
 }
 /*# sourceMappingURL=post.css.map */

@@ -15,7 +15,7 @@ body {
         img {
           width: 100%;
           height: auto;
-          max-width: 50px;
+          max-width: 40px;
           border-radius: 50%;
         }
       }
@@ -23,13 +23,41 @@ body {
         display: inline-block;
         vertical-align: super;
         font-family: $body-font-family;
-        font-size: 14px;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 1.7;
         .a-name {
+          a {
+            color: $link-hover-color;
+            text-transform: uppercase;
+            line-height: 1.5;
+            font-size: 13px;
+            font-weight: 600;
+          }
           &:hover {
             text-decoration: underline;
           }
         }
+        .pub-date {
+          color: $font-gray-color;
+        }
       }
+    }
+  }
+  #list-details{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+    .active {
+      background-color: blue;
+      color: red;
+      transition: 0.5s ease-out;
+    }
+    .scrollspy-example{
+      position: relative;
     }
   }
 }

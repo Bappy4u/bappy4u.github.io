@@ -172,7 +172,7 @@ body .main header .info .single-post-top-title {
 }
 
 body .main header .info .sub-title {
-  color: #aaa;
+  color: #9a9a9a;
   font-family: "Open Sans", sans-serif;
   font-size: 1.1em;
 }
@@ -182,7 +182,7 @@ body .main header .info .sub-title h2 {
 }
 
 body .main header .info .single-post-sub-title {
-  color: #aaa;
+  color: #9a9a9a;
   font-family: "Merriweather", sans-serif;
   font-size: 0.9em;
   text-align: left;
@@ -245,6 +245,6 @@ body .main .home-body .b-content .contact ul li a:hover {
 body .main footer .footer-txt {
   padding: 10px;
   font-size: 0.875em;
-  color: #aaa;
+  color: #9a9a9a;
 }
 /*# sourceMappingURL=base.css.map */
