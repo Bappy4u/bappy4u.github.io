@@ -52,7 +52,7 @@ body .main .container {
   margin: auto;
 }
 
-body .main nav {
+body .main .menu nav {
   border: 1px solid rgba(0, 0, 0, 0.125);
   display: -ms-grid;
   display: grid;
@@ -63,13 +63,13 @@ body .main nav {
   font-family: "Montserrat", sans-serif;
 }
 
-body .main nav .left-side-menu {
+body .main .menu nav .left-side-menu {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: brand;
 }
 
-body .main nav .left-side-menu .brand a {
+body .main .menu nav .left-side-menu .brand a {
   display: inline-block;
   text-decoration: none;
   color: #3a4145;
@@ -80,33 +80,33 @@ body .main nav .left-side-menu .brand a {
   text-transform: uppercase;
 }
 
-body .main nav .left-side-menu .brand a:hover {
+body .main .menu nav .left-side-menu .brand a:hover {
   color: #007199;
   background-color: rgba(0, 116, 217, 0.2);
 }
 
-body .main nav .right-side-menu {
+body .main .menu nav .right-side-menu {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: menu;
 }
 
-body .main nav .right-side-menu .navbar {
+body .main .menu nav .right-side-menu .navbar {
   float: right;
 }
 
-body .main nav .right-side-menu .navbar ul {
+body .main .menu nav .right-side-menu .navbar ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
 }
 
-body .main nav .right-side-menu .navbar ul li {
+body .main .menu nav .right-side-menu .navbar ul li {
   list-style: none;
 }
 
-body .main nav .right-side-menu .navbar ul li a {
+body .main .menu nav .right-side-menu .navbar ul li a {
   text-transform: uppercase;
   text-decoration: none;
   color: #3a4145;
@@ -116,7 +116,7 @@ body .main nav .right-side-menu .navbar ul li a {
   letter-spacing: 2px;
 }
 
-body .main nav .right-side-menu .navbar ul li a:hover {
+body .main .menu nav .right-side-menu .navbar ul li a:hover {
   color: #007199;
   background-color: rgba(0, 116, 217, 0.2);
 }

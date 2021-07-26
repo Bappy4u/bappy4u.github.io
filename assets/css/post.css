@@ -42,4 +42,69 @@ body .info .post-details .det .a-name:hover {
 body .info .post-details .det .pub-date {
   color: #9a9a9a;
 }
+
+body #list-details {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+
+body #list-details .active {
+  background-color: blue;
+  color: red;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+body #list-details .scrollspy-example {
+  position: relative;
+}
+
+body .home-body {
+  position: relative;
+  padding: 40px 5vw !important;
+}
+
+body .home-body .main-content {
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 100%;
+}
+
+body .home-body #post-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 170px 6vw;
+}
+
+body .home-body #post-content ul li {
+  list-style: none;
+}
+
+body .home-body #post-content .toc {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 120px;
+  min-width: 260px;
+  padding: 0 2.4rem;
+  margin-left: 0.2rem;
+  font-size: 16px;
+}
+
+body .home-body #post-content .post-content {
+  -webkit-box-flex: 6;
+      -ms-flex-positive: 6;
+          flex-grow: 6;
+  min-width: 100%;
+}
 /*# sourceMappingURL=post.css.map */
