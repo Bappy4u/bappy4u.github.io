@@ -93,7 +93,7 @@ body .home-body #post-content .toc ul li {
 }
 
 body .home-body #post-content .toc ul li a {
-  color: #626262;
+  color: #2e2e2e;
   height: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 0.8em;
@@ -129,6 +129,16 @@ body .home-body #post-content .post-content {
       -ms-flex-positive: 6;
           flex-grow: 6;
   min-width: 100%;
+  font-size: 1em;
+  line-height: 1.75;
+  color: #2e2e2e;
+}
+
+body .home-body #post-content .post-content .im {
+  background: #e5eff5;
+  line-height: 1em;
+  border-radius: 3px;
+  padding: 0 0.5em;
 }
 
 body .home-body #post-content .post-content img {
@@ -136,7 +146,35 @@ body .home-body #post-content .post-content img {
   margin: 30px 0;
 }
 
-body .home-body #post-content .post-content > p {
+body .home-body #post-content .post-content ul {
+  margin: 0 1.5em;
+}
+
+body .home-body #post-content .post-content ul li li {
+  margin-left: 20px;
+}
+
+body .home-body #post-content .post-content div .gist-data tbody {
+  background: #353535;
+  border-radius: 100px;
+}
+
+body .home-body #post-content .post-content div .gist-data tbody td {
+  font-size: 1.2em !important;
+}
+
+body .home-body #post-content .post-content .file-name {
+  background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#d2d2d2));
+  background: linear-gradient(180deg, #eaeaea, #d2d2d2);
+  border: 1px solid #b9bcbd;
+  color: #4d494d;
+  padding: 7px 5px 7px 10px;
+  border-radius: 5px 5px 0 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+}
+
+body .home-body #post-content .post-content > div {
   padding-top: 40px;
 }
 /*# sourceMappingURL=post.css.map */

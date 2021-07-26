@@ -14,7 +14,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 document
-  .querySelectorAll("#post-content .post-content p[id]")
+  .querySelectorAll("#post-content .post-content > div[id]")
   .forEach((section) => {
     observer.observe(section);
   });
