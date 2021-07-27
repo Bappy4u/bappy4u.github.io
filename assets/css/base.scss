@@ -237,6 +237,9 @@ body {
 @media only screen and (max-width: $breakpoint-mobile) {
   .home-body {
     padding: 40px 10px !important;
+    .container {
+      width: 90% !important;
+    }
     .b-content {
       display: block !important;
     }
@@ -283,7 +286,6 @@ body {
     }
     header .info {
       padding: 30px 0;
-      margin-top: 50px;
       .title {
         font-size: 1.3em !important;
       }

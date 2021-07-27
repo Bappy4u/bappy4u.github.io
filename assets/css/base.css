@@ -293,6 +293,9 @@ body iframe {
   .home-body {
     padding: 40px 10px !important;
   }
+  .home-body .container {
+    width: 90% !important;
+  }
   .home-body .b-content {
     display: block !important;
   }
@@ -332,7 +335,6 @@ body iframe {
   }
   .main header .info {
     padding: 30px 0;
-    margin-top: 50px;
   }
   .main header .info .title {
     font-size: 1.3em !important;
