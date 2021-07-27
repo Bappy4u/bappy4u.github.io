@@ -129,6 +129,14 @@ body .main header .info {
   text-align: center;
 }
 
+body .main header .info .nt-home .title {
+  text-align: left;
+}
+
+body .main header .info .nt-home .sub-title {
+  text-align: left;
+}
+
 body .main header .info .photo img {
   height: 115px;
   width: 115px;

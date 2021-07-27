@@ -9,7 +9,6 @@ fetch(url)
     return response.json();
   })
   .then((myJson) => {
-    console.log(myJson);
     var i = 0;
     var pswpElement = document.querySelectorAll(".pswp")[0];
     var imgDiv = document.getElementById("img");

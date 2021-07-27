@@ -17,11 +17,15 @@
   float: left;
   margin: 0 5px 5px 0;
   width: 295px;
+  max-height: 200px;
 }
 .my-gallery figure {
   position: relative;
   overflow: hidden;
   cursor: zoom-in;
+}
+.my-gallery figure img {
+  object-position: 50% 50%;
 }
 .my-gallery figure::before {
   position: absolute;

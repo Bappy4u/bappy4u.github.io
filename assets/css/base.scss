@@ -98,6 +98,12 @@ body {
       background: #f5f8fa;
       .info {
         text-align: center;
+        .nt-home .title {
+          text-align: left;
+        }
+        .nt-home .sub-title {
+          text-align: left;
+        }
         .photo {
           img {
             height: 115px;
