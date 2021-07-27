@@ -107,12 +107,11 @@ body {
           }
         }
         .post-content {
-          flex-grow: 6;
           min-width: 100%;
           font-size: 1em;
           line-height: 1.75;
           color: $dark-gray;
-
+          font-weight: 300;
           .im {
             background: $white-gray;
             line-height: 1em;
@@ -152,6 +151,57 @@ body {
         .post-content > div {
           padding-top: 40px;
         }
+      }
+    }
+    main {
+      .post-item {
+        padding-bottom: 4em;
+        margin: 4em 0;
+        .photo {
+          display: inline-block;
+          width: 30%;
+          img {
+            width: 100%;
+            height: auto;
+            max-width: 250px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          }
+        }
+        .des {
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 2.5em;
+          width: 63.5%;
+          font-weight: 300;
+          h3 {
+            color: $primary-color;
+            font-family: $body-font-family;
+            font-size: 1.5em;
+            padding-bottom: 0.3em;
+          }
+          .link {
+            font-size: 0.75em;
+            color: $link-color;
+            letter-spacing: 0.08em;
+          }
+          .meta a {
+            font-size: 1em;
+            letter-spacing: 0.01em;
+            i {
+              color: $font-gray-color;
+            }
+          }
+          .short-des {
+            margin-top: 1em;
+            color: $primary-color;
+            font-size: 1em;
+            line-height: 1.75;
+            color: $dark-gray;
+          }
+        }
+      }
+      .post-item:not(:last-child) {
+        border-bottom: 1px solid #e0e0e0;
       }
     }
   }
