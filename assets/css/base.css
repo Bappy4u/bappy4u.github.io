@@ -11,7 +11,6 @@ body {
 }
 
 body .main {
-  overflow: hidden;
   height: 100%;
   min-height: 100vh;
 }
@@ -251,10 +250,38 @@ body .main .home-body .b-content .contact ul li a:hover {
   color: #007199;
 }
 
+body .main footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
 body .main footer .footer-txt {
   padding: 10px;
   font-size: 0.875em;
   color: #9a9a9a;
+}
+
+body .main footer .social-media {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .main footer .social-media ul {
+  text-align: right;
+}
+
+body .main footer .social-media ul li {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
+
+body .main footer .social-media ul li a {
+  color: #2e2e2e !important;
 }
 
 body iframe {
@@ -276,11 +303,39 @@ body iframe {
     width: 100%;
     height: auto;
   }
+  .main .title {
+    font-size: 1.1em !important;
+  }
+  .main .menu nav {
+    display: block !important;
+  }
+  .main .menu nav .brand {
+    text-align: center;
+  }
+  .main .menu nav .right-side-menu {
+    border: 1px solid #e5eff5;
+  }
+  .main .menu nav .right-side-menu .navbar {
+    float: inherit !important;
+  }
+  .main .menu nav .ul {
+    display: block !important;
+  }
+  .main .menu nav ul {
+    background: #ffffff !important;
+  }
+  .main .menu nav ul li a {
+    padding: 10px !important;
+    letter-spacing: 2px !important;
+    font-size: 0.8em !important;
+    letter-spacing: 0.1em !important;
+  }
   .main header .info {
     padding: 30px 0;
+    margin-top: 50px;
   }
   .main header .info .title {
-    font-size: 1.2em !important;
+    font-size: 1.3em !important;
   }
   .main header .info .sub-title {
     font-size: 0.9em !important;

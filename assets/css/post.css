@@ -58,6 +58,12 @@ body .home-body .post-main-content {
   width: 100%;
 }
 
+body .home-body .post-main-content img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
 body .home-body .post-main-content #post-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,6 +86,7 @@ body .home-body .post-main-content #post-content .toc {
   margin-left: 2em;
   font-size: 16px;
   overflow: hidden;
+  padding-top: 40px;
 }
 
 body .home-body .post-main-content #post-content .toc ul {
@@ -237,15 +244,32 @@ body .home-body main .post-item:not(:last-child) {
 }
 
 @media only screen and (max-width: 600px) {
+  .home-body main .post-item {
+    margin: 3em 0 0 0 !important;
+  }
   .home-body main .post-item .photo {
     display: block !important;
     width: 100% !important;
     margin-bottom: 20px !important;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   .home-body main .post-item .des {
     margin-left: 0 !important;
     display: block !important;
     width: 100% !important;
+  }
+  .home-body .post-main-content #post-content {
+    display: block !important;
+    padding: 3vw !important;
+  }
+  .home-body .post-main-content #post-content .toc {
+    padding: 0 !important;
+    display: none;
+  }
+  .home-body .post-main-content #post-content #table-of-content {
+    padding: 0 !important;
   }
 }
 /*# sourceMappingURL=post.css.map */

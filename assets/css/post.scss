@@ -55,6 +55,11 @@ body {
       margin: 0 auto;
       max-width: 1040px;
       width: 100%;
+      img {
+        width: 80%;
+        display: block;
+        margin: auto;
+      }
 
       #post-content {
         display: flex;
@@ -70,6 +75,7 @@ body {
           margin-left: 2em;
           font-size: 16px;
           overflow: hidden;
+          padding-top: 40px;
           ul {
             padding: 0.6rem 0 0 0.9rem;
             position: relative;
@@ -211,15 +217,31 @@ body {
   .home-body {
     main {
       .post-item {
+        margin: 3em 0 0 0 !important;
+
         .photo {
           display: block !important;
           width: 100% !important;
           margin-bottom: 20px !important;
+          order: 1;
         }
         .des {
           margin-left: 0 !important;
           display: block !important;
           width: 100% !important;
+        }
+      }
+    }
+    .post-main-content {
+      #post-content {
+        display: block !important;
+        padding: 3vw !important;
+        .toc {
+          padding: 0 !important;
+          display: none;
+        }
+        #table-of-content {
+          padding: 0 !important;
         }
       }
     }

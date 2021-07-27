@@ -77,4 +77,7 @@ body .main .container {
   .home-body .container #img {
     overflow: hidden;
   }
+  .home-body .container #img figure {
+    margin-bottom: 15px;
+  }
 }
