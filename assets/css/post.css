@@ -235,4 +235,17 @@ body .home-body main .post-item .des .short-des {
 body .home-body main .post-item:not(:last-child) {
   border-bottom: 1px solid #e0e0e0;
 }
+
+@media only screen and (max-width: 600px) {
+  .home-body main .post-item .photo {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .home-body main .post-item .des {
+    margin-left: 0 !important;
+    display: block !important;
+    width: 100% !important;
+  }
+}
 /*# sourceMappingURL=post.css.map */
