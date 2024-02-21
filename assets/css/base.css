@@ -215,12 +215,12 @@ body .main .home-body .b-content .about-me {
 }
 
 body .main .home-body .b-content .about-me .sec-title {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body .main .home-body .b-content .about-me .about-detail {
   padding-top: 20px;
-  line-height: 1.8;
+  line-height: 1.6;
   font-weight: 300;
   font-family: "Merriweather", sans-serif;
 }
